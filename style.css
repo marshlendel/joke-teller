@@ -1,5 +1,22 @@
-/* ROBOT.GIF from Giphy - https://giphy.com/gifs/robot-cinema-4d-eyedesyn-3o7abtn7DuREEpsyWY */
-
 html {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #45badd;
+ 
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("./robot.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
 }
